@@ -1,6 +1,14 @@
 <html>
+  <script>
+    splash = [
+      'something something coding :)',
+      'oh helero? feddy faz bear?',
+      'undertale in minecraft'
+      ]
+    document.getElementById('splash').text = splash[Math.random() * splash.length]
+  </script>
   <body>
     <h1>Hello World</h1>
-    <h2>Splash text</h2>
+    <h2 id="splash">Splash text</h2>
   </body>
 </html>
